@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ currentLang }}">
+	<head>
+		{% include "partials/meta.njk" %}
+	</head>
+	<body>
+		<header class="menu">
+			{% include "partials/header.njk" %}
+		</header>
+		<div class="container">
+			<main class="content">
+				{% block content %}{% endblock %}
+			</main>
+		</div>
+		<footer class="footer">
+			{% include "partials/footer.njk" %}
+		</footer>
+	</body>
+</html>

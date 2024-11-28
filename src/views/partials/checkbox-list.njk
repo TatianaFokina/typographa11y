@@ -1,0 +1,22 @@
+{% macro renderChecklist(checklist) %}
+	<form class="block__list" aria-labelledby="heading">
+		<ul class="list">
+			{% for option in checklist.options %}
+				<li class="list__item">
+					<input
+						class="list__item-checkbox"
+						type="checkbox"
+						id="check-{{ loop.index }}"
+						name="checkbox-{{ loop.index }}"
+					>
+					<label
+						class="list__item-label"
+						for="check-{{ loop.index }}"
+					>
+						{{ option }}.
+					</label>
+				</li>
+			{% endfor %}
+		</ul>
+	</form>
+{% endmacro %}

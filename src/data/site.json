@@ -1,0 +1,33 @@
+{
+  "baseUrl": "https://change-this-example.com",
+  "en": {
+    "urls": {
+      "index": "/en/index.html",
+      "legibilityPage": "/en/legibility.html",
+      "readabilityPage": "/en/readability.html",
+      "githubUrl": "github/",
+      "linkedinUrl": "https://www.linkedin.com/in/tatiana-fokina-frontend/",
+      "blogUrl": "https://a11y-blog.dev/en/"
+    },
+    "title": "TypographA11y",
+    "creator": "Tatiana Fokina",
+    "description": "Checklists for evaluating text content legibility and readability.",
+    "issue": "Find the issue? Let me know on",
+    "blogName": "Personal blog"
+  },
+  "ru": {
+    "urls": {
+      "index": "/ru/index.html",
+      "legibilityPage": "/ru/legibility.html",
+      "readabilityPage": "/ru/readability.html",
+      "githubUrl": "github/",
+      "linkedinUrl": "https://www.linkedin.com/in/tatiana-fokina-frontend/",
+      "blogUrl": "https://a11y-blog.dev/ru/"
+    },
+    "title": "ТипографA11y",
+    "creator": "Татьяна Фокина",
+    "description": "Чеклисты для проверки разборчивости и читабельности в веб-интерфейсах.",
+    "issue": "Нашли ошибку? Поделитесь ей на",
+    "blogName": "Мой блог"
+  }
+}

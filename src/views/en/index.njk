@@ -1,0 +1,47 @@
+{% extends "../base.njk" %}
+
+{% macro generateUrl(pageName) %}
+	{{ "./" + pageName }}
+{% endmacro %}
+
+{% block content %}
+	<div class="content__block">
+		<h1 class="block__heading block__heading--main">
+			{{ content.home.heading }}
+		</h1>
+		{% for paragraph in content.home.about %}
+			<p class="block__text">
+				{{ paragraph }}
+			</p>
+		{% endfor %}
+	</div>
+
+	<section class="content__block">
+		<h2 class="block__heading block__heading--secondary">
+			{{ content.home.subheading }}
+		</h2>
+		<div class="block__cards">
+			<article class="card card--first">
+				<h3 class="card__title">
+					<a
+						role="link"
+						aria-disabled="true"
+						class="title__link"
+					>
+						{{ content.legibility.heading }}
+					</a>
+				</h3>
+			</article>
+			<article class="card card--second">
+				<h3 class="card__title">
+					<a
+						href="{{ generateUrl("readability.html") }}"
+						class="title__link"
+					>
+						{{ content.readability.heading }}
+					</a>
+				</h3>
+			</article>
+		</div>
+	</section>
+{% endblock %}

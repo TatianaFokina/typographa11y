@@ -1,0 +1,33 @@
+<div class="menu__container">
+	{% if currentPage == "index" %}
+		<div class="menu__logo">
+			<span class="logo__letters" aria-hidden="true">1l6б</span>
+			<span class="logo__text" hidden>{{ site.title }}</span>
+		</div>
+	{% else %}
+		<a href="../{{ currentLang }}/index.html" class="menu__logo menu__logo--link">
+			<span class="logo__letters" aria-hidden="true">1l6б</span>
+			<span class="logo__text" hidden>{{ site.title }}</span>
+		</a>
+	{% endif %}
+
+	{% if currentLang == "en" %}
+		<a
+			href="../ru/{% if currentPage == "index" %}index{% else %}readability{% endif %}.html"
+			lang="ru"
+			hreflang="ru"
+			class="menu__lang"
+		>
+			Русский
+		</a>
+	{% else %}
+		<a
+			href="../en/{% if currentPage == "index" %}index{% else %}readability{% endif %}.html"
+			lang="en"
+			hreflang="en"
+			class="menu__lang"
+		>
+			English
+		</a>
+	{% endif %}
+</div>
