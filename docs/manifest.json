@@ -3,7 +3,7 @@
 	"description": "Checklists for evaluating text content legibility and readability.",
 	"lang": "en",
 	"dir": "ltr",
-	"start_url": "/en/",
+	"start_url": "https://tatianafokina.github.io/typographa11y",
 	"orientation": "natural",
 	"icons": [
 		{
