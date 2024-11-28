@@ -2,7 +2,7 @@
 
 First and foremost, a11y means ″accessibility.″
 
-The TypographA11y project provides checklists for evaluating content legibility and readability. This project supports content in English and Russian, with language-specific parameters for each criterion.
+The TypographA11y project provides checklists for evaluating content legibility and readability. This project supports content in [English](https://tatianafokina.github.io/typographa11y/en/) and [Russian](https://tatianafokina.github.io/typographa11y/ru/), with language-specific parameters for each criterion.
 
 ## Technologies
 
