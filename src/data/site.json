@@ -1,11 +1,11 @@
 {
-  "baseUrl": "https://change-this-example.com",
+  "baseUrl": "https://tatianafokina.github.io/typographa11y",
   "en": {
     "urls": {
       "index": "/en/index.html",
       "legibilityPage": "/en/legibility.html",
       "readabilityPage": "/en/readability.html",
-      "githubUrl": "github/",
+      "githubUrl": "https://github.com/TatianaFokina/typographa11y/",
       "linkedinUrl": "https://www.linkedin.com/in/tatiana-fokina-frontend/",
       "blogUrl": "https://a11y-blog.dev/en/"
     },
@@ -20,7 +20,7 @@
       "index": "/ru/index.html",
       "legibilityPage": "/ru/legibility.html",
       "readabilityPage": "/ru/readability.html",
-      "githubUrl": "github/",
+      "githubUrl": "https://github.com/TatianaFokina/typographa11y/",
       "linkedinUrl": "https://www.linkedin.com/in/tatiana-fokina-frontend/",
       "blogUrl": "https://a11y-blog.dev/ru/"
     },
