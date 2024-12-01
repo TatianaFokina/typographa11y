@@ -4,7 +4,7 @@
     "subheading": "Checklists",
     "about": [
       "Typography refers to the design and arrangement of printed or digital text. Typography is closely related to accessibility, often abbreviated as a11y.",
-      "Bad typography in an interface can be a significant barrier for people with low or impaired vision, astigmatism, chronic migraines, attention deficit disorder, autism, or other conditions affecting the perception of visual information.",
+      "Issues with typography in an interface can lead to a significant barrier for different users. For example, people with low or impaired vision, astigmatism, chronic migraines, attention deficit disorder, autism, or other conditions affecting the perception of visual information.",
       "The level of accessibility of the appearance and content of text are is an objective metric. This metric consists of two parts: legibility and readability.",
       "The project contains two checklists to assess the main parameters of legibility and readability. These checklists will help ensure that the font and the text on a website are minimally accessible to most people. Remember to ask users about their experiences and opinions. Accessibility is more than just ticking checkboxes."
     ]
@@ -22,7 +22,14 @@
     "heading": "Read\u00ADability",
     "subheading": "Checklist",
     "about": [
-      "Readability defines how easy to read the text."
+      "Readability defines how easy to read the text and directly impacts user experience (UX). Readability contains the level of complexity of the written text, its style, familiarity, and legibility.",
+      {
+        "content": [
+          { "text": "Learn a little more about readability in " },
+          { "text": "the blog post", "link": "https://a11y-blog.dev/en/articles/readability-checklist/" },
+          { "text": "." }
+        ]
+      }
     ],
     "options": [
       "Mood and tone match the audience",
@@ -32,19 +39,6 @@
       "There are no spelling and grammar mistakes",
       "Readability score is 70–100 based on the automatic test",
       "There is no critical issues with legibility"
-    ]
-  },
-  "other": {
-    "content": [
-      {"text": "Translation of "},
-      {"text": "Accessibility Myths project", "link": "https://a11ymyths.com/ru/"},
-      {"text": "; post "},
-      {"text": "Understanding skip links", "link": "https://a11y-blog.dev/en/articles/understanding-a-skip-link/"},
-      {"text": " on professional blog; article "},
-      {"text": "What is ARIA live regions", "link": "https://doka.guide/a11y/live-region/"},
-      {"text": " on Doka Guide; talk "},
-      {"text": "Accessibility features and where to find them", "link": "https://youtu.be/s8JwoE91xcA/"},
-      {"text": " at Accessibility Conference."}
     ]
   }
 }

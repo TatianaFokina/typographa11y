@@ -9,7 +9,17 @@
 		</h1>
 		{% for paragraph in content.readability.about %}
 			<p class="block__text">
-				{{ paragraph }}
+				{% if paragraph.content %}
+					{%- for part in paragraph.content -%}
+						{%- if part.link -%}
+							<a href="{{ part.link }}" class="text__link">{{ part.text }}</a>
+						{%- else -%}
+							{{ part.text }}
+						{%- endif -%}
+					{%- endfor -%}
+				{% else %}
+					{{ paragraph }}
+				{% endif %}
 			</p>
 		{% endfor %}
 	</div>
