@@ -13,8 +13,8 @@
 	--checkbox-size: 2.0625rem;
 
 	/* Typography */
-	--font-primary: "Open Sans", sans-serif;
-	--font-secondary: "Yeseva One", serif;
+	--font-primary: "Open Sans", "Roboto", "Arial", sans-serif;
+	--font-secondary: "Yeseva One", "Times New Roman", serif;
 
 	/* Font sizes */
 	--step--1: clamp(0.7246rem, 0.5451rem + 0.7561vw, 0.9964rem);
